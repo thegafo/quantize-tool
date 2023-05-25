@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Quantize Tool</title>
+    <meta name="description" content="Competitive trading protocol" />
+    <link rel="icon" href="%svelte.assets%/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary: rgb(253, 252, 220);
+        --secondary: rgb(254, 217, 183);
+        --tertiary: rgb(240, 113, 103);
+        --accent: rgb(0, 129, 167);
+        --detail: rgb(0, 175, 185);
+      }
+      html,
+      body,
+      #svelte {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background: var(--secondary);
+      }
+    </style>
+    %svelte.head%
+  </head>
+  <body>
+    <div id="svelte">%svelte.body%</div>
+  </body>
+</html>
